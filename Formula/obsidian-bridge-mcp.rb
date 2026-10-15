@@ -1,25 +1,25 @@
 class ObsidianBridgeMcp < Formula
   desc "Obsidian MCP bridge"
   homepage "https://github.com/Roter-S/obsidian-bridge-mcp"
-  version "0.3.0"
+  version "0.3.1"
   on_macos do
     on_arm do
-      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.0/obm-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a5f17bf5497ecd9b038ccf91718b12748cb07df7dee184435a8e5f7d97fa53d6"
+      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.1/obm-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a8d74f0226a7649a30f345cee24c6fb83bb04cd3b7b8455d38622202d764ef58"
     end
     on_intel do
-      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.0/obm-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b28f447dda562c87240ef0c17a10d803ad946e7f2b8fca71c128e7a52233f176"
+      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.1/obm-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "d91b3ca40d6373b82ac4a10b8be2511b4c1abe20739bdb59ff407072cf2b3451"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.0/obm-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "489529fab4daa332e709c9abef4e39c5276e586232741083f8814ffec19baf4e"
+      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.1/obm-0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d1dc915cd61b4225fc09d84b17db0d3b23c6b7a8b2909168d29a4546d39a85f9"
     end
     on_intel do
-      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.0/obm-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f43f4c62d1b26fa7399855e309b8adf75257d038b9f6d865c254c147300494bd"
+      url "https://github.com/Roter-S/obsidian-bridge-mcp/releases/download/v0.3.1/obm-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f4769215dddb6b84b88f59888b4952c5a33939d94200532f6bd4e3aaee1e0e05"
     end
   end
 
